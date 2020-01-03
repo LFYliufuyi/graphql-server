@@ -1,0 +1,7 @@
+type Query{
+    users:[User]
+    user(userId:Int):User
+    applications:[Application]
+    roles:[Role]
+}
+

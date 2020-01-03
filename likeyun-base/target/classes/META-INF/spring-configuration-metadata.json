@@ -1,0 +1,33 @@
+{
+  "groups": [
+    {
+      "name": "audience",
+      "type": "net.likeyun.base.entity.Audience",
+      "sourceType": "net.likeyun.base.entity.Audience"
+    }
+  ],
+  "properties": [
+    {
+      "name": "audience.base64-secret",
+      "type": "java.lang.String",
+      "sourceType": "net.likeyun.base.entity.Audience"
+    },
+    {
+      "name": "audience.client-id",
+      "type": "java.lang.String",
+      "sourceType": "net.likeyun.base.entity.Audience"
+    },
+    {
+      "name": "audience.expires-second",
+      "type": "java.lang.Integer",
+      "sourceType": "net.likeyun.base.entity.Audience",
+      "defaultValue": 0
+    },
+    {
+      "name": "audience.name",
+      "type": "java.lang.String",
+      "sourceType": "net.likeyun.base.entity.Audience"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,38 @@
+type User{
+    id:Int
+    username:String
+    realName:String
+    status:Int
+    role:Role
+    applications:[Application]
+    sex:Sex
+    createTime:Int
+}
+
+enum Sex{
+    MAN
+    WOMAN
+}
+
+type Role{
+    id:Int
+    name:String
+    status:Int
+    applications:[Application]
+}
+
+type Application{
+    id:Int
+    name:String
+    status:Int
+    roles:[Role]
+}
+
+type LoginLog{
+    id:Int
+    username:String
+    roleId:Int
+    ip:String
+    address:String
+    loginTime:Int
+}
